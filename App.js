@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   tinyLogo: {
     width: 300,
     height: 300,
-    borderRadius:20,
+    borderRadius:150,
   },
   headerhead:{
     fontSize:42,
@@ -34,6 +34,11 @@ const styles = StyleSheet.create({
     color:"#4d0026",
  
     fontSize : 32,
+  },
+  appdev:{
+  paddingTop:200,
+  fontWeight:'bold'
+
   }
 });
 
@@ -54,6 +59,7 @@ const DisplayAnImage = () => {
      special day...Have a wonderful time<br></br>
     and a very happy birthday
     </Text>
+    <Text style={styles.appdev}>Designed by :Moabi Sethojane @ MLab || Coded by Moabi Sethojane</Text>
     </View>
   );
 }
