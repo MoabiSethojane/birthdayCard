@@ -11,11 +11,19 @@ const styles = StyleSheet.create({
     alignItems:"center",
     fontSize:30,
     maxWidth:1024,
+    borderColor:"#005c99",
+    borderWidth:10,
+    borderRadius:5,
+    
+    
   },
   tinyLogo: {
     width: 300,
     height: 300,
     borderRadius:150,
+    borderColor:"#009900",
+    borderWidth:4,
+    
   },
   headerhead:{
     fontSize:42,
@@ -59,7 +67,7 @@ const DisplayAnImage = () => {
      special day...Have a wonderful time<br></br>
     and a very happy birthday
     </Text>
-    <Text style={styles.appdev}>Designed by :Moabi Sethojane @ MLab || Coded by Moabi Sethojane</Text>
+    <Text style={styles.appdev}>Designed by: Moabi Sethojane @ MLab || Coded by Moabi Sethojane</Text>
     </View>
   );
 }
